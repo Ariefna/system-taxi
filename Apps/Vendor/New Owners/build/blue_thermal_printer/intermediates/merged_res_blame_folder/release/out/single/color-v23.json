@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Vendor/New Owners/build/blue_thermal_printer/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/476fb03454b58535f0e38b512b208432/appcompat-1.0.2/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Vendor/New Owners/build/blue_thermal_printer/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/476fb03454b58535f0e38b512b208432/appcompat-1.0.2/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Vendor/New Owners/build/blue_thermal_printer/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/476fb03454b58535f0e38b512b208432/appcompat-1.0.2/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Vendor/New Owners/build/blue_thermal_printer/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/476fb03454b58535f0e38b512b208432/appcompat-1.0.2/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Vendor/New Owners/build/blue_thermal_printer/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/476fb03454b58535f0e38b512b208432/appcompat-1.0.2/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Vendor/New Owners/build/blue_thermal_printer/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/476fb03454b58535f0e38b512b208432/appcompat-1.0.2/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Vendor/New Owners/build/blue_thermal_printer/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/476fb03454b58535f0e38b512b208432/appcompat-1.0.2/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Vendor/New Owners/build/blue_thermal_printer/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/476fb03454b58535f0e38b512b208432/appcompat-1.0.2/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Vendor/New Owners/build/blue_thermal_printer/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/476fb03454b58535f0e38b512b208432/appcompat-1.0.2/res/color-v23/abc_tint_switch_track.xml"
+    }
+]

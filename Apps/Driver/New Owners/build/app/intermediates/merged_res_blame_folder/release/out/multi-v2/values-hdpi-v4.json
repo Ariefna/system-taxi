@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/a5938b6bc1c3d29abcade9e7088084ae/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

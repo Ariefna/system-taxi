@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_crashlytics/intermediates/res/merged/release/values-th/values-th.xml",
+            "map": [
+                {
+                    "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/39b00e17496305ec7bcf74fd5e4e4184/jetified-play-services-basement-18.0.0/res/values-th/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "124",
+                        "endOffsets": "319"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "128",
+                        "endOffsets": "179"
+                    }
+                },
+                {
+                    "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/430b0f3cf9162963ab2abaf7a55ee1d5/core-1.6.0/res/values-th/values-th.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "184",
+                        "endColumns": "100",
+                        "endOffsets": "280"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_crashlytics/intermediates/incremental/mergeReleaseResources/merged.dir/values-th/values-th.xml",
+            "map": [
+                {
+                    "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/39b00e17496305ec7bcf74fd5e4e4184/jetified-play-services-basement-18.0.0/res/values-th/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "124",
+                        "endOffsets": "319"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "128",
+                        "endOffsets": "179"
+                    }
+                },
+                {
+                    "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/430b0f3cf9162963ab2abaf7a55ee1d5/core-1.6.0/res/values-th/values-th.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "184",
+                        "endColumns": "100",
+                        "endOffsets": "280"
+                    }
+                }
+            ]
+        }
+    ]
+}

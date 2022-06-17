@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/fluttertoast/intermediates/res/merged/release/drawable/corner.xml",
+        "source": "/home/linux/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9/android/src/main/res/drawable/corner.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/fluttertoast/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/430b0f3cf9162963ab2abaf7a55ee1d5/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/fluttertoast/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/430b0f3cf9162963ab2abaf7a55ee1d5/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/fluttertoast/intermediates/res/merged/release/drawable/toast_bg.xml",
+        "source": "/home/linux/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9/android/src/main/res/drawable/toast_bg.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/fluttertoast/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/430b0f3cf9162963ab2abaf7a55ee1d5/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/fluttertoast/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/430b0f3cf9162963ab2abaf7a55ee1d5/core-1.6.0/res/drawable/notification_icon_background.xml"
+    }
+]

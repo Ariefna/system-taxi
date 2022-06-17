@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_auth/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/430b0f3cf9162963ab2abaf7a55ee1d5/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_auth/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/430b0f3cf9162963ab2abaf7a55ee1d5/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_auth/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/430b0f3cf9162963ab2abaf7a55ee1d5/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_auth/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/430b0f3cf9162963ab2abaf7a55ee1d5/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

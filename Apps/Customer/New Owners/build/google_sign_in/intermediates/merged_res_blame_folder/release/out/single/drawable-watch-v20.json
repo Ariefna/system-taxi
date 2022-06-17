@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Customer/New Owners/build/google_sign_in/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/313fe4f75e1769006e3f434692c85ee9/jetified-play-services-auth-20.0.1/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Customer/New Owners/build/google_sign_in/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/313fe4f75e1769006e3f434692c85ee9/jetified-play-services-auth-20.0.1/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Customer/New Owners/build/google_sign_in/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/313fe4f75e1769006e3f434692c85ee9/jetified-play-services-auth-20.0.1/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    }
+]

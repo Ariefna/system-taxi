@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/res/merged/release/drawable-anydpi-v24/icon_with_gradient.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/res/drawable-anydpi-v24/icon_with_gradient.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/res/merged/release/drawable-anydpi-v24/adaptive_icon_foreground.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/res/drawable-anydpi-v24/adaptive_icon_foreground.xml"
+    }
+]

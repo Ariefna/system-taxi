@@ -1,0 +1,917 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.deliverymall.driver"
+4    android:versionCode="4035"
+5    android:versionName="1.5.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement FlutterApplication and put your custom class here.
+15    -->
+16    <!-- <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/> -->
+17    <!--
+18         <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"
+19                tools:node="remove"/>
+20    -->
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:11:5-66
+21-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:11:22-64
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:12:5-81
+22-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:12:22-78
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:13:5-79
+23-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:13:22-76
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:14:5-77
+24-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:14:22-74
+25    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+25-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:15:5-95
+25-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:15:22-92
+26    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+26-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:16:5-84
+26-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:16:22-82
+27
+28    <queries>
+28-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:17:5-30:15
+29        <intent>
+29-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:18:9-21:18
+30            <action android:name="android.intent.action.VIEW" />
+30-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:19:13-65
+30-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:19:21-62
+31
+32            <data android:scheme="https" />
+32-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:20:13-44
+32-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:20:19-41
+33        </intent>
+34        <intent>
+34-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:22:9-25:18
+35            <action android:name="android.intent.action.DIAL" />
+35-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:23:13-65
+35-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:23:21-62
+36
+37            <data android:scheme="tel" />
+37-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:20:13-44
+37-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:20:19-41
+38        </intent>
+39        <intent>
+39-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:26:9-29:18
+40            <action android:name="android.intent.action.SEND" />
+40-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:27:13-65
+40-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:27:21-62
+41
+42            <data android:mimeType="*/*" />
+42-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:20:13-44
+42-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:28:19-41
+43        </intent>
+44        <intent>
+44-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:8:9-10:18
+45            <action android:name="android.support.customtabs.action.CustomTabsService" />
+45-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:9:13-90
+45-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:9:21-87
+46        </intent>
+47
+48        <package android:name="com.google.android.apps.maps" />
+48-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:9-64
+48-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:18-61
+49        <package android:name="com.google.android.apps.mapslite" />
+49-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:9-68
+49-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:18-65
+50        <package android:name="com.autonavi.minimap" />
+50-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:9-56
+50-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:18-53
+51        <package android:name="com.baidu.BaiduMap" />
+51-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:9-54
+51-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:18-51
+52        <package android:name="com.waze" />
+52-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:12:9-44
+52-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:12:18-41
+53        <package android:name="ru.yandex.yandexnavi" />
+53-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:13:9-56
+53-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:13:18-53
+54        <package android:name="ru.yandex.yandexmaps" />
+54-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:14:9-56
+54-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:14:18-53
+55        <package android:name="com.citymapper.app.release" />
+55-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:15:9-62
+55-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:15:18-59
+56        <package android:name="com.mapswithme.maps.pro" />
+56-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:16:9-59
+56-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:16:18-56
+57        <package android:name="net.osmand" />
+57-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:17:9-46
+57-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:17:18-43
+58        <package android:name="ru.dublgis.dgismobile" />
+58-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:18:9-57
+58-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:18:18-54
+59        <package android:name="com.tencent.map" />
+59-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:19:9-51
+59-->[:map_launcher] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/map_launcher/intermediates/library_manifest/release/AndroidManifest.xml:19:18-48
+60    </queries>
+61
+62    <uses-permission android:name="android.permission.WAKE_LOCK" />
+62-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:5-68
+62-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:22-65
+63    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+63-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:5-79
+63-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:22-76
+64    <uses-permission android:name="android.permission.VIBRATE" />
+64-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:8:5-66
+64-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:8:22-63
+65    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+66    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+67    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+68    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+68-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+68-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:22-78
+69    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+69-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:28:5-82
+69-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:28:22-79
+70
+71    <uses-feature
+71-->[com.google.android.gms:play-services-maps:17.0.0] /home/linux/.gradle/caches/transforms-2/files-2.1/a73c07716d6de539debe39da6f9fcdd0/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+72        android:glEsVersion="0x00020000"
+72-->[com.google.android.gms:play-services-maps:17.0.0] /home/linux/.gradle/caches/transforms-2/files-2.1/a73c07716d6de539debe39da6f9fcdd0/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+73        android:required="true" />
+73-->[com.google.android.gms:play-services-maps:17.0.0] /home/linux/.gradle/caches/transforms-2/files-2.1/a73c07716d6de539debe39da6f9fcdd0/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+74
+75    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+75-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:22:5-65
+75-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:22:22-62
+76    <uses-feature
+76-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:25:5-27:36
+77        android:name="android.hardware.camera"
+77-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:26:9-47
+78        android:required="false" />
+78-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:27:9-33
+79    <uses-feature
+79-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:28:5-30:36
+80        android:name="android.hardware.camera.front"
+80-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:29:9-53
+81        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+81-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:30:9-33
+82    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+83    <uses-feature
+83-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:33:5-35:36
+84        android:name="android.hardware.camera.autofocus"
+84-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:34:9-57
+85        android:required="false" />
+85-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:35:9-33
+86    <uses-feature
+86-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:36:5-38:36
+87        android:name="android.hardware.camera.flash"
+87-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:37:9-53
+88        android:required="false" />
+88-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:38:9-33
+89    <uses-feature
+89-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:39:5-41:36
+90        android:name="android.hardware.screen.landscape"
+90-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:40:9-57
+91        android:required="false" />
+91-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:41:9-33
+92    <uses-feature
+92-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:42:5-44:36
+93        android:name="android.hardware.wifi"
+93-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:43:9-45
+94        android:required="false" /> <!-- for android -->
+94-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:44:9-33
+95    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+96    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+97    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+98    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+99    <!-- for Samsung -->
+100    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+100-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+100-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+101    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+101-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+101-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+102    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+102-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+102-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+103    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+103-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+103-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+104    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+104-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+104-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+105    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+105-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+105-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+106    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+106-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+106-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+107    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+107-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+107-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+108    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+108-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+108-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+109    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+109-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+109-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+110    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+110-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+110-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+111    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+111-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+111-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+112    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+112-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+112-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+113    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+113-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+113-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+114    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+114-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+114-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+115    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+115-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+115-->[me.leolin:ShortcutBadger:1.1.22] /home/linux/.gradle/caches/transforms-2/files-2.1/8c2ac3e5e74623d3cab5909f9533f8af/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+116
+117    <application
+118        android:name="android.app.Application"
+118-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:35:9-42
+119        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+119-->[androidx.core:core:1.7.0] /home/linux/.gradle/caches/transforms-2/files-2.1/8205c83ff37788a73461094b7295ef07/core-1.7.0/AndroidManifest.xml:24:18-86
+120        android:extractNativeLibs="false"
+121        android:icon="@mipmap/launcher_icon"
+121-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:39:9-45
+122        android:label="Glover Delivery Boy"
+122-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:36:9-44
+123        android:requestLegacyExternalStorage="true"
+123-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:38:9-52
+124        android:usesCleartextTraffic="true" >
+124-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:37:9-44
+125        <activity
+125-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:41:9-84:20
+126            android:name="online.edentech.fuodzdeliveryboy.MainActivity"
+126-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:42:13-41
+127            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+127-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:45:13-163
+128            android:hardwareAccelerated="true"
+128-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:46:13-47
+129            android:launchMode="singleTop"
+129-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:43:13-43
+130            android:theme="@style/LaunchTheme"
+130-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:44:13-47
+131            android:windowSoftInputMode="adjustResize" >
+131-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:47:13-55
+132
+133            <!--
+134                 Specifies an Android theme to apply to this Activity as soon as
+135                 the Android process has started. This theme is visible to the user
+136                 while the Flutter UI initializes. After that, this theme continues
+137                 to determine the Window background behind the Flutter UI.
+138            -->
+139            <meta-data
+139-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:52:13-55:17
+140                android:name="io.flutter.embedding.android.NormalTheme"
+140-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:53:15-70
+141                android:resource="@style/NormalTheme" />
+141-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:54:15-52
+142            <!--
+143                 Displays an Android View that continues showing the launch screen
+144                 Drawable until Flutter paints its first frame, then this splash
+145                 screen fades out. A splash screen is useful to avoid any visual
+146                 gap between the end of Android's launch screen and the painting of
+147                 Flutter's first frame.
+148            -->
+149            <meta-data
+149-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:61:13-64:17
+150                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+150-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:62:15-79
+151                android:resource="@drawable/launch_background" />
+151-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:63:15-61
+152
+153            <!-- Firebase notification -->
+154            <meta-data
+154-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:67:13-69:48
+155                android:name="com.google.firebase.messaging.default_notification_channel_id"
+155-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:68:17-93
+156                android:value="basic_channel" />
+156-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:69:17-46
+157            <meta-data
+157-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:71:13-73:64
+158                android:name="com.google.firebase.messaging.default_notification_icon"
+158-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:72:17-87
+159                android:resource="@mipmap/notification_icon" />
+159-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:73:17-61
+160
+161            <intent-filter>
+161-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:75:13-78:29
+162                <action android:name="android.intent.action.MAIN" />
+162-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:76:17-68
+162-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:76:25-66
+163
+164                <category android:name="android.intent.category.LAUNCHER" />
+164-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:77:17-76
+164-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:77:27-74
+165            </intent-filter>
+166            <intent-filter>
+166-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:80:13-83:29
+167                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+167-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:81:17-69
+167-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:81:25-66
+168
+169                <category android:name="android.intent.category.DEFAULT" />
+169-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:82:17-76
+169-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:82:27-73
+170            </intent-filter>
+171        </activity>
+172        <!--
+173             Don't delete the meta-data below.
+174             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+175        -->
+176        <meta-data
+176-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:87:9-89:33
+177            android:name="flutterEmbedding"
+177-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:88:13-44
+178            android:value="2" />
+178-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:89:13-30
+179        <meta-data
+179-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:92:9-93:70
+180            android:name="com.google.android.geo.API_KEY"
+180-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:92:20-65
+181            android:value="AIzaSyDnDczEoeUwf7bN5b_-223uvrecPVfzggE" />
+181-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:93:13-68
+182
+183        <service
+183-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:12:9-15:72
+184            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+184-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:13-107
+185            android:exported="false"
+185-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+186            android:permission="android.permission.BIND_JOB_SERVICE" />
+186-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:15:13-69
+187        <service
+187-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:16:9-22:19
+188            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+188-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:17:13-97
+189            android:exported="false" >
+189-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+190            <intent-filter>
+190-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:19:13-21:29
+191                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+191-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:17-78
+191-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:25-75
+192            </intent-filter>
+193        </service>
+194
+195        <receiver
+195-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:24:9-31:20
+196            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+196-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:25:13-98
+197            android:exported="true"
+197-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:26:13-36
+198            android:permission="com.google.android.c2dm.permission.SEND" >
+198-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:27:13-73
+199            <intent-filter>
+199-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+200                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+200-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
+200-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+201            </intent-filter>
+202        </receiver>
+203
+204        <service
+204-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:33:9-37:19
+205            android:name="com.google.firebase.components.ComponentDiscoveryService"
+205-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:33:18-89
+206            android:directBootAware="true"
+206-->[com.google.firebase:firebase-common:20.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/24c84a9563928c241a353473abb31b54/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+207            android:exported="false" >
+207-->[com.google.firebase:firebase-auth-ktx:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/a39bf188715f947fe59e8b87ebc7e5c8/jetified-firebase-auth-ktx-21.0.3/AndroidManifest.xml:10:13-37
+208            <meta-data
+208-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:34:13-36:85
+209                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+209-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:35:17-128
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:36:17-82
+211            <meta-data
+211-->[:firebase_crashlytics] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+212                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+212-->[:firebase_crashlytics] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:10:17-130
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[:firebase_crashlytics] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_crashlytics/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+214            <meta-data
+214-->[:cloud_firestore] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+215                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+215-->[:cloud_firestore] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[:cloud_firestore] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+217            <meta-data
+217-->[:firebase_auth] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+218                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+218-->[:firebase_auth] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[:firebase_auth] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+220            <meta-data
+220-->[:firebase_storage] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+221                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+221-->[:firebase_storage] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:10:17-126
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[:firebase_storage] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+223            <meta-data
+223-->[:firebase_core] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+224                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+224-->[:firebase_core] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[:firebase_core] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+226            <meta-data
+226-->[com.google.firebase:firebase-auth-ktx:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/a39bf188715f947fe59e8b87ebc7e5c8/jetified-firebase-auth-ktx-21.0.3/AndroidManifest.xml:11:13-13:85
+227                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+227-->[com.google.firebase:firebase-auth-ktx:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/a39bf188715f947fe59e8b87ebc7e5c8/jetified-firebase-auth-ktx-21.0.3/AndroidManifest.xml:12:17-116
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-auth-ktx:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/a39bf188715f947fe59e8b87ebc7e5c8/jetified-firebase-auth-ktx-21.0.3/AndroidManifest.xml:13:17-82
+229            <meta-data
+229-->[com.google.firebase:firebase-messaging-ktx:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/838e401f51d780985323123dcb7f6bb2/jetified-firebase-messaging-ktx-23.0.2/AndroidManifest.xml:29:13-31:85
+230                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+230-->[com.google.firebase:firebase-messaging-ktx:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/838e401f51d780985323123dcb7f6bb2/jetified-firebase-messaging-ktx-23.0.2/AndroidManifest.xml:30:17-126
+231                android:value="com.google.firebase.components.ComponentRegistrar" />
+231-->[com.google.firebase:firebase-messaging-ktx:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/838e401f51d780985323123dcb7f6bb2/jetified-firebase-messaging-ktx-23.0.2/AndroidManifest.xml:31:17-82
+232            <meta-data
+232-->[com.google.firebase:firebase-common-ktx:20.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/0d4428bc6fe423fccdf47358d9e48efe/jetified-firebase-common-ktx-20.1.0/AndroidManifest.xml:15:13-17:85
+233                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+233-->[com.google.firebase:firebase-common-ktx:20.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/0d4428bc6fe423fccdf47358d9e48efe/jetified-firebase-common-ktx-20.1.0/AndroidManifest.xml:16:17-113
+234                android:value="com.google.firebase.components.ComponentRegistrar" />
+234-->[com.google.firebase:firebase-common-ktx:20.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/0d4428bc6fe423fccdf47358d9e48efe/jetified-firebase-common-ktx-20.1.0/AndroidManifest.xml:17:17-82
+235            <meta-data
+235-->[com.google.firebase:firebase-firestore:24.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/96ad21419da3ccdf54aadfe97a2001b7/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:20:13-22:85
+236                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+236-->[com.google.firebase:firebase-firestore:24.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/96ad21419da3ccdf54aadfe97a2001b7/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:21:17-111
+237                android:value="com.google.firebase.components.ComponentRegistrar" />
+237-->[com.google.firebase:firebase-firestore:24.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/96ad21419da3ccdf54aadfe97a2001b7/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:22:17-82
+238            <meta-data
+238-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+239                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+239-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+240                android:value="com.google.firebase.components.ComponentRegistrar" />
+240-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+241            <meta-data
+241-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:55:13-57:85
+242                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+242-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:56:17-119
+243                android:value="com.google.firebase.components.ComponentRegistrar" />
+243-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:57:17-82
+244            <meta-data
+244-->[com.google.firebase:firebase-crashlytics:18.2.9] /home/linux/.gradle/caches/transforms-2/files-2.1/0fc4554afec18666ee6d09d6a547b2c2/jetified-firebase-crashlytics-18.2.9/AndroidManifest.xml:18:13-20:85
+245                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+245-->[com.google.firebase:firebase-crashlytics:18.2.9] /home/linux/.gradle/caches/transforms-2/files-2.1/0fc4554afec18666ee6d09d6a547b2c2/jetified-firebase-crashlytics-18.2.9/AndroidManifest.xml:19:17-115
+246                android:value="com.google.firebase.components.ComponentRegistrar" />
+246-->[com.google.firebase:firebase-crashlytics:18.2.9] /home/linux/.gradle/caches/transforms-2/files-2.1/0fc4554afec18666ee6d09d6a547b2c2/jetified-firebase-crashlytics-18.2.9/AndroidManifest.xml:20:17-82
+247            <meta-data
+247-->[com.google.firebase:firebase-storage:20.0.1] /home/linux/.gradle/caches/transforms-2/files-2.1/02fcb45e7f6fdad075bfebed67230a7a/jetified-firebase-storage-20.0.1/AndroidManifest.xml:33:13-35:85
+248                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+248-->[com.google.firebase:firebase-storage:20.0.1] /home/linux/.gradle/caches/transforms-2/files-2.1/02fcb45e7f6fdad075bfebed67230a7a/jetified-firebase-storage-20.0.1/AndroidManifest.xml:34:17-107
+249                android:value="com.google.firebase.components.ComponentRegistrar" />
+249-->[com.google.firebase:firebase-storage:20.0.1] /home/linux/.gradle/caches/transforms-2/files-2.1/02fcb45e7f6fdad075bfebed67230a7a/jetified-firebase-storage-20.0.1/AndroidManifest.xml:35:17-82
+250            <meta-data
+250-->[com.google.firebase:firebase-datatransport:18.1.1] /home/linux/.gradle/caches/transforms-2/files-2.1/528f7481864ca72d33ca795c5b230f14/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:28:13-30:85
+251                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+251-->[com.google.firebase:firebase-datatransport:18.1.1] /home/linux/.gradle/caches/transforms-2/files-2.1/528f7481864ca72d33ca795c5b230f14/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:29:17-115
+252                android:value="com.google.firebase.components.ComponentRegistrar" />
+252-->[com.google.firebase:firebase-datatransport:18.1.1] /home/linux/.gradle/caches/transforms-2/files-2.1/528f7481864ca72d33ca795c5b230f14/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:30:17-82
+253            <meta-data
+253-->[com.google.firebase:firebase-installations:17.0.1] /home/linux/.gradle/caches/transforms-2/files-2.1/1d8beda565c13eefa39bbdad150dc57e/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+254                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+254-->[com.google.firebase:firebase-installations:17.0.1] /home/linux/.gradle/caches/transforms-2/files-2.1/1d8beda565c13eefa39bbdad150dc57e/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+255                android:value="com.google.firebase.components.ComponentRegistrar" />
+255-->[com.google.firebase:firebase-installations:17.0.1] /home/linux/.gradle/caches/transforms-2/files-2.1/1d8beda565c13eefa39bbdad150dc57e/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+256        </service>
+257
+258        <provider
+258-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:39:9-43:38
+259            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+259-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:40:13-102
+260            android:authorities="com.deliverymall.driver.flutterfirebasemessaginginitprovider"
+260-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:41:13-88
+261            android:exported="false"
+261-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:42:13-37
+262            android:initOrder="99" />
+262-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:43:13-35
+263
+264        <receiver
+264-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:12:9-14:39
+265            android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver"
+265-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:13:13-108
+266            android:exported="true" />
+266-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:14:13-36
+267        <receiver
+267-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:15:9-21:20
+268            android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver"
+268-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:16:13-107
+269            android:exported="true" >
+269-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:17:13-36
+270            <intent-filter>
+270-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:18:13-20:29
+271                <action android:name="android.intent.action.MEDIA_BUTTON" />
+271-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:19:17-77
+271-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:19:25-74
+272            </intent-filter>
+273        </receiver>
+274
+275        <service
+275-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:23:9-33:19
+276            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
+276-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:24:13-101
+277            android:enabled="true"
+277-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:25:13-35
+278            android:exported="true" >
+278-->[:assets_audio_player] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:26:13-36
+279
+280            <!--
+281            <intent-filter>
+282                <action android:name="android.intent.action.MEDIA_BUTTON" />
+283            </intent-filter>
+284            -->
+285        </service>
+286        <service android:name="de.julianassmann.flutter_background.IsolateHolderService" >
+286-->[:flutter_background] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_background/intermediates/library_manifest/release/AndroidManifest.xml:11:9-17:19
+286-->[:flutter_background] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_background/intermediates/library_manifest/release/AndroidManifest.xml:11:18-89
+287
+288            <!--
+289            android:exported="false"
+290            android:foregroundServiceType="connectedDevice|dataSync"
+291            -->
+292        </service>
+293
+294        <activity
+294-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:14:9-17:47
+295            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+295-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:15:13-104
+296            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+296-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:16:13-137
+297            android:theme="@style/AppTheme" />
+297-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:17:13-44
+298        <activity
+298-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:18:9-20:55
+299            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+299-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:19:13-112
+300            android:theme="@style/ThemeTransparent" />
+300-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:20:13-52
+301
+302        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver" />
+302-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:22:9-120
+302-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:22:19-117
+303
+304        <meta-data
+304-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:24:9-26:36
+305            android:name="io.flutter.embedded_views_preview"
+305-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:25:13-61
+306            android:value="true" />
+306-->[:flutter_inappwebview] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:26:13-33
+307
+308        <provider
+308-->[:image_picker_android] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+309            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+309-->[:image_picker_android] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-82
+310            android:authorities="com.deliverymall.driver.flutter.image_provider"
+310-->[:image_picker_android] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+311            android:exported="false"
+311-->[:image_picker_android] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+312            android:grantUriPermissions="true" >
+312-->[:image_picker_android] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+313            <meta-data
+313-->[:image_picker_android] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+314                android:name="android.support.FILE_PROVIDER_PATHS"
+314-->[:image_picker_android] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+315                android:resource="@xml/flutter_image_picker_file_paths" />
+315-->[:image_picker_android] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+316        </provider>
+317
+318        <receiver
+318-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:11:9-13:40
+319            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver"
+319-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:13-121
+320            android:exported="false" />
+320-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+321        <receiver
+321-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:14:9-16:40
+322            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver"
+322-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:13-121
+323            android:exported="false" />
+323-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:13-37
+324        <receiver
+324-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:9-19:40
+325            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver"
+325-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:13-115
+326            android:exported="false" />
+326-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:19:13-37
+327        <receiver
+327-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:20:9-33:20
+328            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshSchedulesReceiver"
+328-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:21:13-116
+329            android:exported="false" >
+329-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:22:13-37
+330            <intent-filter>
+330-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:23:13-32:29
+331                <category android:name="android.intent.category.DEFAULT" />
+331-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:82:17-76
+331-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:82:27-73
+332
+333                <action android:name="android.intent.action.BOOT_COMPLETED" />
+333-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:26:17-79
+333-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:26:25-76
+334                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+334-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:27:17-86
+334-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:27:25-83
+335                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+335-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:28:17-84
+335-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:28:25-81
+336                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+336-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:29:17-82
+336-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:29:25-79
+337                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+337-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:30:17-82
+337-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:30:25-79
+338                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+338-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:31:17-107
+338-->[:awesome_notifications] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/awesome_notifications/intermediates/library_manifest/release/AndroidManifest.xml:31:25-104
+339            </intent-filter>
+340        </receiver>
+341
+342        <activity
+342-->[:url_launcher_android] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+343            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+343-->[:url_launcher_android] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+344            android:exported="false"
+344-->[:url_launcher_android] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+345            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+345-->[:url_launcher_android] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+346
+347        <service
+347-->[:location] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/location/intermediates/library_manifest/release/AndroidManifest.xml:11:9-15:56
+348            android:name="com.lyokone.location.FlutterLocationService"
+348-->[:location] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/location/intermediates/library_manifest/release/AndroidManifest.xml:12:13-71
+349            android:enabled="true"
+349-->[:location] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/location/intermediates/library_manifest/release/AndroidManifest.xml:13:13-35
+350            android:exported="false"
+350-->[:location] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/location/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+351            android:foregroundServiceType="location" />
+351-->[:location] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/location/intermediates/library_manifest/release/AndroidManifest.xml:15:13-53
+352
+353        <uses-library
+353-->[androidx.window:window:1.0.0-beta04] /home/linux/.gradle/caches/transforms-2/files-2.1/81660c87057208ce708162e1785ccb4c/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+354            android:name="androidx.window.extensions"
+354-->[androidx.window:window:1.0.0-beta04] /home/linux/.gradle/caches/transforms-2/files-2.1/81660c87057208ce708162e1785ccb4c/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+355            android:required="false" />
+355-->[androidx.window:window:1.0.0-beta04] /home/linux/.gradle/caches/transforms-2/files-2.1/81660c87057208ce708162e1785ccb4c/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+356        <uses-library
+356-->[androidx.window:window:1.0.0-beta04] /home/linux/.gradle/caches/transforms-2/files-2.1/81660c87057208ce708162e1785ccb4c/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+357            android:name="androidx.window.sidecar"
+357-->[androidx.window:window:1.0.0-beta04] /home/linux/.gradle/caches/transforms-2/files-2.1/81660c87057208ce708162e1785ccb4c/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+358            android:required="false" />
+358-->[androidx.window:window:1.0.0-beta04] /home/linux/.gradle/caches/transforms-2/files-2.1/81660c87057208ce708162e1785ccb4c/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+359
+360        <activity
+360-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+361            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+361-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+362            android:excludeFromRecents="true"
+362-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+363            android:exported="true"
+363-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+364            android:launchMode="singleTask"
+364-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+365            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+365-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+366            <intent-filter>
+366-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+367                <action android:name="android.intent.action.VIEW" />
+367-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:19:13-65
+367-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:19:21-62
+368
+369                <category android:name="android.intent.category.DEFAULT" />
+369-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:82:17-76
+369-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:82:27-73
+370                <category android:name="android.intent.category.BROWSABLE" />
+370-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+370-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+371
+372                <data
+372-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:20:13-44
+373                    android:host="firebase.auth"
+374                    android:path="/"
+375                    android:scheme="genericidp" />
+375-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:20:19-41
+376            </intent-filter>
+377        </activity>
+378        <activity
+378-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+379            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+379-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+380            android:excludeFromRecents="true"
+380-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+381            android:exported="true"
+381-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+382            android:launchMode="singleTask"
+382-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+383            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+383-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+384            <intent-filter>
+384-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+385                <action android:name="android.intent.action.VIEW" />
+385-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:19:13-65
+385-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:19:21-62
+386
+387                <category android:name="android.intent.category.DEFAULT" />
+387-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:82:17-76
+387-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:82:27-73
+388                <category android:name="android.intent.category.BROWSABLE" />
+388-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+388-->[com.google.firebase:firebase-auth:21.0.3] /home/linux/.gradle/caches/transforms-2/files-2.1/f03612d2f748cd9eb0228204456d8034/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+389
+390                <data
+390-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:20:13-44
+391                    android:host="firebase.auth"
+392                    android:path="/"
+393                    android:scheme="recaptcha" />
+393-->/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/android/app/src/main/AndroidManifest.xml:20:19-41
+394            </intent-filter>
+395        </activity>
+396
+397        <receiver
+397-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:31:9-38:20
+398            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+398-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:32:13-78
+399            android:exported="true"
+399-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:33:13-36
+400            android:permission="com.google.android.c2dm.permission.SEND" >
+400-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:34:13-73
+401            <intent-filter>
+401-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+402                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+402-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
+402-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+403            </intent-filter>
+404        </receiver>
+405        <!--
+406             FirebaseMessagingService performs security checks at runtime,
+407             but set to not exported to explicitly avoid allowing another app to call it.
+408        -->
+409        <service
+409-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:44:9-51:19
+410            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+410-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:45:13-82
+411            android:directBootAware="true"
+411-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:46:13-43
+412            android:exported="false" >
+412-->[com.google.firebase:firebase-messaging:23.0.2] /home/linux/.gradle/caches/transforms-2/files-2.1/2dff65ef90282f472f3c49283a227247/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:47:13-37
+413            <intent-filter android:priority="-500" >
+413-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:19:13-21:29
+414                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+414-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:17-78
+414-->[:firebase_messaging] /home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:25-75
+415            </intent-filter>
+416        </service>
+417
+418        <provider
+418-->[com.google.firebase:firebase-common:20.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/24c84a9563928c241a353473abb31b54/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+419            android:name="com.google.firebase.provider.FirebaseInitProvider"
+419-->[com.google.firebase:firebase-common:20.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/24c84a9563928c241a353473abb31b54/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+420            android:authorities="com.deliverymall.driver.firebaseinitprovider"
+420-->[com.google.firebase:firebase-common:20.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/24c84a9563928c241a353473abb31b54/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+421            android:directBootAware="true"
+421-->[com.google.firebase:firebase-common:20.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/24c84a9563928c241a353473abb31b54/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+422            android:exported="false"
+422-->[com.google.firebase:firebase-common:20.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/24c84a9563928c241a353473abb31b54/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+423            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+423-->[com.google.firebase:firebase-common:20.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/24c84a9563928c241a353473abb31b54/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+424        <uses-library
+424-->[com.google.android.gms:play-services-maps:17.0.0] /home/linux/.gradle/caches/transforms-2/files-2.1/a73c07716d6de539debe39da6f9fcdd0/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+425            android:name="org.apache.http.legacy"
+425-->[com.google.android.gms:play-services-maps:17.0.0] /home/linux/.gradle/caches/transforms-2/files-2.1/a73c07716d6de539debe39da6f9fcdd0/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+426            android:required="false" />
+426-->[com.google.android.gms:play-services-maps:17.0.0] /home/linux/.gradle/caches/transforms-2/files-2.1/a73c07716d6de539debe39da6f9fcdd0/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+427
+428        <activity
+428-->[com.google.android.gms:play-services-base:18.0.1] /home/linux/.gradle/caches/transforms-2/files-2.1/5f25d84a87dc2fa58247970c573b3570/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+429            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+429-->[com.google.android.gms:play-services-base:18.0.1] /home/linux/.gradle/caches/transforms-2/files-2.1/5f25d84a87dc2fa58247970c573b3570/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+430            android:exported="false"
+430-->[com.google.android.gms:play-services-base:18.0.1] /home/linux/.gradle/caches/transforms-2/files-2.1/5f25d84a87dc2fa58247970c573b3570/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+431            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+431-->[com.google.android.gms:play-services-base:18.0.1] /home/linux/.gradle/caches/transforms-2/files-2.1/5f25d84a87dc2fa58247970c573b3570/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+432
+433        <meta-data
+433-->[com.google.android.gms:play-services-basement:18.0.0] /home/linux/.gradle/caches/transforms-2/files-2.1/39b00e17496305ec7bcf74fd5e4e4184/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+434            android:name="com.google.android.gms.version"
+434-->[com.google.android.gms:play-services-basement:18.0.0] /home/linux/.gradle/caches/transforms-2/files-2.1/39b00e17496305ec7bcf74fd5e4e4184/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+435            android:value="@integer/google_play_services_version" />
+435-->[com.google.android.gms:play-services-basement:18.0.0] /home/linux/.gradle/caches/transforms-2/files-2.1/39b00e17496305ec7bcf74fd5e4e4184/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+436
+437        <provider
+437-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/linux/.gradle/caches/transforms-2/files-2.1/d74f4d6f4b9e2196c503c17dedee505d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+438            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+438-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/linux/.gradle/caches/transforms-2/files-2.1/d74f4d6f4b9e2196c503c17dedee505d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+439            android:authorities="com.deliverymall.driver.lifecycle-process"
+439-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/linux/.gradle/caches/transforms-2/files-2.1/d74f4d6f4b9e2196c503c17dedee505d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+440            android:exported="false"
+440-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/linux/.gradle/caches/transforms-2/files-2.1/d74f4d6f4b9e2196c503c17dedee505d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+441            android:multiprocess="true" />
+441-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/linux/.gradle/caches/transforms-2/files-2.1/d74f4d6f4b9e2196c503c17dedee505d/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+442
+443        <service
+443-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/53e1001218226722621318a364c94038/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:29:9-35:19
+444            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+444-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/53e1001218226722621318a364c94038/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:30:13-103
+445            android:exported="false" >
+445-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/53e1001218226722621318a364c94038/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:31:13-37
+446            <meta-data
+446-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/53e1001218226722621318a364c94038/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:32:13-34:39
+447                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+447-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/53e1001218226722621318a364c94038/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:33:17-94
+448                android:value="cct" />
+448-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/53e1001218226722621318a364c94038/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:34:17-36
+449        </service>
+450        <service
+450-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/afd4e08acd4f0cc82788e56c95e94b50/jetified-transport-runtime-3.1.2/AndroidManifest.xml:26:9-30:19
+451            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+451-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/afd4e08acd4f0cc82788e56c95e94b50/jetified-transport-runtime-3.1.2/AndroidManifest.xml:27:13-117
+452            android:exported="false"
+452-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/afd4e08acd4f0cc82788e56c95e94b50/jetified-transport-runtime-3.1.2/AndroidManifest.xml:28:13-37
+453            android:permission="android.permission.BIND_JOB_SERVICE" >
+453-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/afd4e08acd4f0cc82788e56c95e94b50/jetified-transport-runtime-3.1.2/AndroidManifest.xml:29:13-69
+454        </service>
+455
+456        <receiver
+456-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/afd4e08acd4f0cc82788e56c95e94b50/jetified-transport-runtime-3.1.2/AndroidManifest.xml:32:9-34:40
+457            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+457-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/afd4e08acd4f0cc82788e56c95e94b50/jetified-transport-runtime-3.1.2/AndroidManifest.xml:33:13-132
+458            android:exported="false" />
+458-->[com.google.android.datatransport:transport-runtime:3.1.2] /home/linux/.gradle/caches/transforms-2/files-2.1/afd4e08acd4f0cc82788e56c95e94b50/jetified-transport-runtime-3.1.2/AndroidManifest.xml:34:13-37
+459
+460        <activity
+460-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:47:9-53:63
+461            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+461-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:48:13-74
+462            android:clearTaskOnLaunch="true"
+462-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:49:13-45
+463            android:screenOrientation="sensorLandscape"
+463-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:50:13-56
+464            android:stateNotNeeded="true"
+464-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:51:13-42
+465            android:theme="@style/zxing_CaptureTheme"
+465-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:52:13-54
+466            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+466-->[com.journeyapps:zxing-android-embedded:4.1.0] /home/linux/.gradle/caches/transforms-2/files-2.1/db991b88fa09c392477cbb74f215072c/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:53:13-60
+467        <activity
+467-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:12:5-271
+468            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+468-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:12:15-102
+469            android:enabled="false"
+469-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:12:103-126
+470            android:exported="false"
+470-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:12:127-151
+471            android:launchMode="singleInstance"
+471-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:12:204-239
+472            android:process=":playcore_missing_splits_activity"
+472-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:12:152-203
+473            android:stateNotNeeded="true" />
+473-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:12:240-269
+474        <activity
+474-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:13:5-226
+475            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+475-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:13:15-95
+476            android:enabled="false"
+476-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:13:96-119
+477            android:exported="false"
+477-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:13:120-144
+478            android:stateNotNeeded="true"
+478-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:13:145-174
+479            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+479-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:13:175-224
+480        <service
+480-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:16:5-18:15
+481            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+481-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:16:14-95
+482            android:enabled="false"
+482-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:16:96-119
+483            android:exported="true" >
+483-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:16:120-143
+484            <meta-data
+484-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:17:7-108
+485                android:name="com.google.android.play.core.assetpacks.versionCode"
+485-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:17:18-84
+486                android:value="11000" />
+486-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:17:85-106
+487        </service>
+488        <service
+488-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:19:5-147
+489            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+489-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:19:14-96
+490            android:enabled="false"
+490-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:19:97-120
+491            android:exported="false" />
+491-->[com.google.android.play:core:1.10.0] /home/linux/.gradle/caches/transforms-2/files-2.1/f30514c84e81eca03541483506599b84/jetified-core-1.10.0/AndroidManifest.xml:19:121-145
+492    </application>
+493
+494</manifest>

@@ -1,0 +1,2 @@
+com/mahmoudsalah37/swipe_button_widget/BuildConfig.java
+ com.mahmoudsalah37.swipe_button_widget.BuildConfig

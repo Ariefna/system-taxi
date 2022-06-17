@@ -1,0 +1,7 @@
+flutter_application_id:
+  android:
+    id: "com.deliverymall.driver"
+    name: "Delivery Mall Driver"
+  ios:
+    id: "online.edentech.fuodzdeliveryboy"
+    name: "Glover Delivery Boy"

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/res/merged/release/animator/fragment_fade_exit.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/6c3f350bd3dc8faaf56cb287a882f62e/fragment-1.3.1/res/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/res/merged/release/animator/fragment_close_enter.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/6c3f350bd3dc8faaf56cb287a882f62e/fragment-1.3.1/res/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/res/merged/release/animator/fragment_open_enter.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/6c3f350bd3dc8faaf56cb287a882f62e/fragment-1.3.1/res/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/res/merged/release/animator/fragment_open_exit.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/6c3f350bd3dc8faaf56cb287a882f62e/fragment-1.3.1/res/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/res/merged/release/animator/fragment_fade_enter.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/6c3f350bd3dc8faaf56cb287a882f62e/fragment-1.3.1/res/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/assets_audio_player/intermediates/res/merged/release/animator/fragment_close_exit.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/6c3f350bd3dc8faaf56cb287a882f62e/fragment-1.3.1/res/animator/fragment_close_exit.xml"
+    }
+]

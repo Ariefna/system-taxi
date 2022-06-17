@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/qr_code_scanner/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/a5938b6bc1c3d29abcade9e7088084ae/appcompat-1.2.0/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/qr_code_scanner/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/a5938b6bc1c3d29abcade9e7088084ae/appcompat-1.2.0/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/qr_code_scanner/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/a5938b6bc1c3d29abcade9e7088084ae/appcompat-1.2.0/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/qr_code_scanner/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/a5938b6bc1c3d29abcade9e7088084ae/appcompat-1.2.0/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/qr_code_scanner/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/a5938b6bc1c3d29abcade9e7088084ae/appcompat-1.2.0/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/qr_code_scanner/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/a5938b6bc1c3d29abcade9e7088084ae/appcompat-1.2.0/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/qr_code_scanner/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/a5938b6bc1c3d29abcade9e7088084ae/appcompat-1.2.0/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/qr_code_scanner/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/a5938b6bc1c3d29abcade9e7088084ae/appcompat-1.2.0/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/linux/project/system taxi terbaru/Apps/Driver/New Owners/build/qr_code_scanner/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/linux/.gradle/caches/transforms-2/files-2.1/a5938b6bc1c3d29abcade9e7088084ae/appcompat-1.2.0/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    }
+]
